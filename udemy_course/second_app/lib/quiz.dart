@@ -32,7 +32,13 @@ class _QuizState extends State<Quiz> {
         activeScreen = 'results';
       });
     }
+  }
 
+  void restartQuiz() {
+    setState(() {
+      selectedAnswers = [];
+      activeScreen = 'questions-screen';
+    });
   }
 
   @override
@@ -52,7 +58,11 @@ class _QuizState extends State<Quiz> {
               end: Alignment.bottomRight
             )
           ),
-          child: activeScreen == 'start' ? StartScreen(switchScreen) : activeScreen == 'questions' ? QuestionsScreen(chooseAnswer) : ResultsScreen(selectedAnswers),
+          child:
+            activeScreen == 'start' ? StartScreen(switchScreen) :
+            activeScreen == 'questions' ? QuestionsScreen(chooseAnswer) :
+            activeScreen == 'results' ? ResultsScreen(selectedAnswers, restartQuiz) :
+            activeScreen == 'questions-screen' ? QuestionsScreen(chooseAnswer) : StartScreen(switchScreen),
         ),
       ),
     );
