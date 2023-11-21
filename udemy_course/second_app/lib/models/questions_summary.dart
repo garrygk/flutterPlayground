@@ -25,7 +25,8 @@ class QuestionsSummary extends StatelessWidget {
                   child: DecoratedBox(
                     decoration: BoxDecoration(
                       borderRadius: BorderRadius.circular(30),
-                      color: const Color.fromARGB(255, 73, 181, 239),
+                      // color: const Color.fromARGB(255, 73, 181, 239),
+                      color: data['user_answer'] == data['correct_answer'] ? const Color.fromARGB(255, 73, 181, 239) : const Color.fromARGB(255, 225, 36, 197),
                       // shape: BoxShape.circle
                     ),
                     child: Center(
