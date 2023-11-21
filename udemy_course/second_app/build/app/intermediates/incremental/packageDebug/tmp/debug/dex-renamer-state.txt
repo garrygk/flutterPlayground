@@ -1,4 +1,4 @@
-#Tue Nov 21 20:44:24 CET 2023
+#Tue Nov 21 23:42:48 CET 2023
 base.0=/Users/garry/Desktop/Projects/flutterPlayground/udemy_course/second_app/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
