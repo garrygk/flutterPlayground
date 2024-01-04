@@ -33,10 +33,10 @@ void main() {
       theme: ThemeData().copyWith(
         useMaterial3: true,
         colorScheme: kColourScheme,
-        appBarTheme: const AppBarTheme().copyWith(
-          backgroundColor: kColourScheme.onPrimaryContainer,
-          foregroundColor: kColourScheme.primaryContainer,
-        ),
+        // appBarTheme: const AppBarTheme().copyWith(
+        //   backgroundColor: kColourScheme.onPrimaryContainer,
+        //   foregroundColor: kColourScheme.primaryContainer,
+        // ),
         cardTheme: const CardTheme().copyWith(
           color: kColourScheme.secondaryContainer,
           margin: const EdgeInsets.symmetric(horizontal: 16, vertical: 8)
