@@ -2,7 +2,7 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
-	<key>API_KEY</key>
+	
 	<string></string>
 	<key>GCM_SENDER_ID</key>
 	<string>544983233000</string>
@@ -24,9 +24,6 @@
 	<true></true>
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
-	<key>GOOGLE_APP_ID</key>
-	<string>1:544983233000:ios:02980658ce14cba16ef45d</string>
-	<key>DATABASE_URL</key>
-	<string>https://flutter-prep-6b32e-default-rtdb.firebaseio.com</string>
+	<string></string>
 </dict>
 </plist>
